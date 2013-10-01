@@ -1,0 +1,8 @@
+eds_project_2
+=============
+
+I'm working on using regular expressions to search and replace text. For example, the comments I'm searching follow the following pattern:
+
+body: I always took it as those who are. edited:
+
+I'm interested in the text that follows "body:" (i.e., the text of the comment) and that precedes " edited:".
