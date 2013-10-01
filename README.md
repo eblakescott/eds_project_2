@@ -9,4 +9,8 @@ I'm interested in the text that follows "body:" (i.e., the text of the comment) 
 
 console.log(names.replace(/(body:) (I always took it as those who are.) (edited:)/, "$2"));
 
-I'm hoping I can use a similar technique when searching large chunks of text to get the text I want.
+Or to search for any comment text:
+
+console.log(names.replace(/(body: )(.* )(edited:)/, "$2"));
+
+
